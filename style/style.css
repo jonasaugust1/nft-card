@@ -1,0 +1,82 @@
+html{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 20%;
+    height: 50%;
+    border-radius: 2%;
+    padding: 50px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+
+#nft{
+    width: 100%;
+    /* display: block; */
+}
+
+h2, p, h3{
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+}
+
+
+h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    
+}
+
+p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+}
+
+
+#price{
+    color: hsl(178, 100%, 50%);
+    margin-right: 10%;
+}
+
+#ethereum{
+    width: 5%;
+    margin-right: 5px;
+}
+
+#ethereum, #price{
+    display: inline-block;
+}
+
+#clock{
+    width: 7%;
+    margin-right: 5px;
+}
+
+#timeLeft, #clock{
+    display: inline-block;
+}
+
+hr{
+    stroke: hsl(215, 32%, 27%);
+}
+
+#signature{
+    color: hsl(215, 51%, 70%);
+}
+
+#name{
+    color: hsl(0, 0%, 100%);
+}
+
+#signature, #perfil{
+    display: inline-block;
+}
+
+#perfil{
+    width: 10%;
+    margin-right: 10px;
+}
