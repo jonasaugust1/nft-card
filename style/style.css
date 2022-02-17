@@ -3,27 +3,23 @@
     display: flex;
     width: 100%;
     background-color: hsl(217, 54%, 11%);
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
 .card{
     background-color: hsl(216, 50%, 16%);
-    /* display: flex; */
-    flex-direction: column;
-    width: calc(100% - 1000px);
-    padding: calc(100% - 1300px);
+    display: flex;
+    flex-flow: wrap column ;
+    width: 20%;
+    height: 10%;
+    padding: 3%;
     border-radius: 10px;
-    margin-top: 7%;
-    margin-bottom: 7%;
-    /* justify-content: center; */
-    /* align-content: center; */
-    /* align-items: center; */
 }
 
 #nft{
-    width: calc(100% - 30px);
-    margin-left: 5%;
+    width: calc(100% - 5px);
+    align-self: center;
 }
 
 h2, p, h3{
@@ -32,6 +28,7 @@ h2, p, h3{
 
 h2{
     color: hsl(0, 0%, 100%);
+    font-size: 170%;
     text-align: center;
 }
 
@@ -40,28 +37,25 @@ p, h3{
 }
 
 p{
-    font-size: 20px;
-    display: inline-block;
+    font-size: 18px;
 }
 
-.value, .time{
-    display: inline-block;
+.description{
+    text-align: center;
 }
 
-.time{
-    padding-left: 33%;
+.value{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
 }
-/* #ethereum, #price, #clock, #timeLeft{
-    width: 50%;
-    display: inline-block;
-} */
 
 #ethereum{
-    width: 10%;
+    width: 5%;
 }
 
 #clock{
-    width: 15%;
+    width: 8%;
 }
 
 hr{
@@ -69,18 +63,16 @@ hr{
 }
 
 .creator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
 }
 
-#perfil, #signature{
-    display: inline-block;
-    margin-top: 5%;
-}
-
 #perfil{
-    width: calc(100% - 300px);
-    padding-right: 5%;
-    /* margin-left: 45px; */
+    width: 13%;
+    height: 13%;
+    align-self: center;
 }
 
 #name{
