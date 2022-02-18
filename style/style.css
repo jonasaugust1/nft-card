@@ -11,8 +11,9 @@ body{
     background-color: hsl(216, 50%, 16%);
     display: flex;
     flex-flow: wrap column ;
-    width: 20%;
-    padding: 3%;
+    max-width: calc(100% - 80%);
+    min-width: calc(100% - 50%);
+    padding: calc(100% - 97%);
     border-radius: 10px;
 }
 
@@ -27,7 +28,7 @@ h1, h2, p, h3{
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 170%;
+    font-size: calc(100% - 0.01px);
     text-align: center;
 }
 
@@ -36,11 +37,11 @@ h2, p, h3{
 }
 
 h2{
-    font-size: 18px;
+    font-size: calc(100% - 0%);
 }
 
 p{
-    font-size: 18px;
+    font-size: calc(100% - 0%);
 }
 
 .description{
@@ -54,11 +55,11 @@ p{
 }
 
 #ethereum{
-    width: 5%;
+    width: calc(100% - 92%);
 }
 
 #clock{
-    width: 8%;
+    width: calc(100% - 88%);
 }
 
 hr{
@@ -69,12 +70,12 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100% - 0px);
 }
 
 #perfil{
-    width: 13%;
-    height: 13%;
+    width: calc(100% - 87%);
+    height: calc(100% - 87%);
     align-self: center;
 }
 
